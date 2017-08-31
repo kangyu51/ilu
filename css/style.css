@@ -1,0 +1,689 @@
+@charset "utf-8";
+*{
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    font-family: "思源黑体","微软雅黑","Regular","Times New Roman",Georgia,Serif;
+}
+body{
+   font-size:0.625%;
+}
+ul{
+    list-style:none;
+}
+a,li{
+    text-decoration:none;
+}
+/*导航条*/
+#myCarousel{
+    margin-top:50px;
+}
+.carousel-indicators li{
+    border:1px solid #8998B3;
+}
+.carousel-indicators .active{
+    background:#7DB2CE;
+}
+.carousel-inner img{
+    margin:0 auto;
+}
+.carousel-control{
+    font-size:100px;
+}
+#navbar-collapse ul {
+    margin-top:0;
+}
+/*视频*/
+.shipin{
+    cursor:pointer;
+    margin:0 auto;
+}
+.modal-header{
+    padding:10px;
+}
+/*主页图片*/
+#pic1,#pic2,#pic3{
+    position:relative;
+}
+#pic1 img,#pic2 img,#pic3 img{
+    margin:0 auto;
+}
+    /*底部*/
+.row{
+    padding:0;
+    margin:0;
+}
+.a{
+    background:#EEEEEE;
+}
+.footer-cont{
+    text-align:center;
+}
+.footer-cont h5{
+    color:#7CB2CE;
+    padding:10px 0 10px 0;
+    font-weight:bold;
+    font-size:10px;
+}
+.footer-cont ul li{
+    margin:10px 0;
+}
+.footer-cont ul li a{
+    color:#999999;
+    text-decoration:none;
+    cursor:pointer;
+}
+.footer-cont ul li a:hover{
+    color:#7CB2CE;
+}
+.footer-search div{
+     padding:10px 0 30px 0;
+     text-align:center;
+     width:100%;
+     margin:0 auto;
+}
+.footer-search div button{
+    background:#7CB2CE;
+    color:#fff;
+}
+.footer-img {
+    text-align:center;
+    padding:10px 0 0 0;
+}
+.footer-img img{
+     float:left;
+     width:76px;
+     margin:5px 0 0 20%;
+}
+.footer-img figure{
+    margin:-20px 0 0 20%;
+    float:left;
+}
+.footer-img figure h4{
+   font-size:12px;
+   text-align:center;
+}
+.footer-img figure img{
+    width:50px;
+    margin:-7px 0 0 0;
+}
+/*当页面大于1200px 时，大屏幕，主要是PC端*/
+@media (min-width: 1200px) {
+        .pic1-title{
+        margin:0;
+        padding:0;
+        top:30%;
+        position:absolute;
+        text-align:right;
+        font-family:'STKaiti';
+        width:40%;
+    }
+    .pic1-title h3{
+        color:#5B6F97;
+        font-size:25px;
+    }
+    .pic1-title h1{
+        color:#5B6F97;
+        font-size:40px;
+        margin:20px 0;
+    }
+    .pic1-title p{
+        color:#5B6F97;
+        font-size:16px;
+    }
+    .pic2-title{
+        margin:0;
+        padding:0;
+        top:25%;
+        left:60%;
+        text-align:left;
+        position:absolute;
+    }
+    .pic2-title h3{
+        color:#546893;
+    }
+    .pic2-title h1{
+        color:#18356F;
+        font-size:40px;
+        margin:20px 0;
+    }
+    .pic2-title p{
+        color:#546893;
+        font-size:15px;
+    }
+    .pic3-title{
+        margin:0;
+        padding:0;
+        top:30%;
+        left:5%;
+        text-align:right;
+        position:absolute;
+        font-family:'STKaiti';
+        width:40%;
+    /*    background:red;*/
+    }
+    .pic3-title h3{
+        color:#546893;
+        font-size:25px;
+        margin:20px 0;
+    }
+    .pic3-title h1{
+        color:#18356F;
+        font-size:40px;
+        margin:30px 0;
+    }
+    .pic3-title p{
+        color:#546893;
+        font-size:15px;
+    }
+    .footer-cont h5{
+        color:#7CB2CE;
+        padding:10px 0 10px 0;
+        font-weight:bold;
+        font-size:13px;
+   }
+   .footer-cont ul li a{
+    font-size:12px;
+   }
+   .footer-img img{
+         float:left;
+         width:76px;
+         margin:5px 0 0 10%;
+    }
+    .footer-img figure{
+        margin:-20px 0 0 10%;
+        float:left;
+    }
+}
+/*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pic1-title{
+        margin:0;
+        padding:0;
+        top:30%;
+        position:absolute;
+        text-align:right;
+        font-family:'STKaiti';
+        width:40%;
+    }
+    .pic1-title h3{
+        color:#5B6F97;
+        font-size:25px;
+    }
+    .pic1-title h1{
+        color:#5B6F97;
+        font-size:40px;
+        margin:20px 0;
+    }
+    .pic1-title p{
+        color:#5B6F97;
+        font-size:16px;
+    }
+    .pic2-title{
+        margin:0;
+        padding:0;
+        top:25%;
+        left:60%;
+        text-align:left;
+        position:absolute;
+        font-family:'STKaiti';
+    }
+    .pic2-title h3{
+        color:#546893;
+        font-size:20px;
+    }
+    .pic2-title h1{
+        color:#18356F;
+        font-size:35px;
+        margin:20px 0;
+    }
+    .pic2-title p{
+        color:#546893;
+        font-size:15px;
+    }
+    .pic3-title{
+        margin:0;
+        padding:0;
+        top:30%;
+        left:5%;
+        text-align:right;
+        position:absolute;
+        font-family:'STKaiti';
+        width:40%;
+    /*    background:red;*/
+    }
+    .pic3-title h3{
+        color:#546893;
+        font-size:25px;
+        margin:20px 0;
+    }
+    .pic3-title h1{
+        color:#18356F;
+        font-size:40px;
+        margin:30px 0;
+    }
+    .pic3-title p{
+        color:#546893;
+        font-size:15px;
+    }
+    .footer-cont h5{
+        color:#7CB2CE;
+        padding:10px 0 10px 0;
+        font-weight:bold;
+        font-size:13px;
+   }   
+   .footer-cont ul li a{
+        font-size:12px;
+   }
+   .footer-img img{
+         float:left;
+         width:76px;
+         margin:5px 0 0 10%;
+    }
+    .footer-img figure{
+        margin:-20px 0 0 10%;
+        float:left;
+    }
+}
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .pic1-title{
+        margin:0;
+        padding:0;
+        top:30%;
+        position:absolute;
+        text-align:right;
+        font-family:'STKaiti';
+        width:40%;
+   }
+    .pic1-title h3{
+        color:#5B6F97;
+        font-size:20px;
+    }
+    .pic1-title h1{
+        color:#5B6F97;
+        font-size:30px;
+        margin:20px 0;
+    }
+    .pic1-title p{
+        color:#5B6F97;
+        font-size:10px;
+    }
+     .pic2-title{
+        margin:0;
+        padding:0;
+        top:25%;
+        left:60%;
+        text-align:left;
+        position:absolute;
+        font-family:'STKaiti';
+    }
+    .pic2-title h3{
+        color:#546893;
+        font-size:18px;
+    }
+    .pic2-title h1{
+        color:#18356F;
+        font-size:25px;
+        margin:20px 0;
+    }
+    .pic2-title p{
+        color:#546893;
+        font-size:10px;
+    }
+    .pic3-title{
+        margin:0;
+        padding:0;
+        top:30%;
+        left:5%;
+        text-align:right;
+        position:absolute;
+        font-family:'STKaiti';
+        width:40%;
+       /* background:red;*/
+    }
+    .pic3-title h3{
+        color:#546893;
+        font-size:20px;
+        margin:20px 0;
+    }
+    .pic3-title h1{
+        color:#18356F;
+        font-size:32px;
+        margin:30px 0;
+    }
+    .pic3-title p{
+        color:#546893;
+        font-size:14px;
+    }
+    .footer-img img{
+         float:left;
+         width:76px;
+         margin:5px 0 0 10%;
+    }
+    .footer-img figure{
+        margin:-20px 0 0 10%;
+        float:left;
+    }
+     .footer-cont h5{
+        color:#7CB2CE;
+        padding:10px 0 10px 0;
+        font-weight:bold;
+        font-size:13px;
+   }   
+   .footer-cont ul li a{
+        font-size:12px;
+   }
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+   .carousel-control{
+        font-size:50px;
+     }
+     .modal-dialog{
+        width:80%;
+        margin:15rem auto;
+    }
+    .fvideo{
+        width:100%;
+    }
+    .pic1-title{
+        margin:0;
+        padding:0;
+        top:30%;
+        position:absolute;
+        text-align:right;
+        font-family:'STKaiti';
+        width:50%;
+   }
+    .pic1-title h3{
+        color:#5B6F97;
+        font-size:20px;
+    }
+    .pic1-title h1{
+        color:#5B6F97;
+        font-size:30px;
+        margin:20px 0;
+    }
+    .pic1-title p{
+        color:#5B6F97;
+        font-size:5px;
+    }
+    .pic2-title{
+        margin:0;
+        padding:0;
+        top:25%;
+        left:60%;
+        text-align:left;
+        position:absolute;
+        font-family:'STKaiti';
+    }
+    .pic2-title h3{
+        color:#546893;
+        font-size:15px;
+    }
+    .pic2-title h1{
+        color:#18356F;
+        font-size:23px;
+        margin:20px 0;
+    }
+    .pic2-title p{
+        color:#546893;
+        font-size:10px;
+    }
+    .pic3-title{
+        margin:0;
+        padding:0;
+        top:20%;
+        left:5%;
+        text-align:right;
+        position:absolute;
+        font-family:'STKaiti';
+        width:42%;
+       /* background:red;*/
+    }
+    .pic3-title h3{
+        color:#546893;
+        font-size:18px;
+        margin:10px 0;
+    }
+    .pic3-title h1{
+        color:#18356F;
+        font-size:21px;
+        margin:20px 0;
+    }
+    .pic3-title p{
+        color:#546893;
+        font-size:10px;
+    }
+    .footer-img img{
+     float:left;
+     width:76px;
+     margin:5px 0 0 20%;
+    }
+    .footer-img figure{
+        margin:-20px 0 0 20%;
+        float:left;
+    }
+     .footer-cont h5{
+        color:#7CB2CE;
+        padding:10px 0 10px 0;
+        font-weight:bold;
+        font-size:13px;
+   }   
+   .footer-cont ul li a{
+        font-size:12px;
+   }
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (min-width: 320px) and (max-width: 480px) {
+     .carousel-control{
+        font-size:50px;
+     }
+     .modal-dialog{
+        width:80%;
+        margin:15rem auto;
+    }
+    .fvideo{
+        width:100%;
+    }
+    .pic1-title{
+        margin:0;
+        padding:0;
+        top:10%;
+        position:absolute;
+        text-align:right;
+        font-family:'STKaiti';
+        width:50%;
+    }
+    .pic1-title h3{
+        color:#5B6F97;
+        font-size:15px;
+    }
+    .pic1-title h1{
+        color:#5B6F97;
+        font-size:20px;
+        margin:10px 0;
+    }
+    .pic1-title p{
+        color:#5B6F97;
+        font-size:1px;
+    }
+    .pic2-title{
+        margin:0;
+        padding:0;
+        top:10%;
+        left:50%;
+        text-align:left;
+        position:absolute;
+        width:50%;
+        font-family:'STKaiti';
+    }
+    .pic2-title h3{
+        color:#546893;
+        font-size:12px;
+    }
+    .pic2-title h1{
+        color:#18356F;
+        font-size:18px;
+        margin:20px 0;
+    }
+    .pic2-title p{
+        color:#546893;
+        font-size:5px;
+    }
+    .pic3-title{
+        margin:0;
+        padding:0;
+        top:20%;
+        text-align:right;
+        position:absolute;
+        font-family:'STKaiti';
+        width:45%;
+        /*background:red;*/
+    }
+    .pic3-title h3{
+        color:#546893;
+        font-size:14px;
+        margin:10px 0;
+    }
+    .pic3-title h1{
+        color:#18356F;
+        font-size:18px;
+        margin:10px 0;
+    }
+    .pic3-title p{
+        color:#546893;
+        font-size:8px;
+/*        letter-spacing:0px;*/
+    }
+     .footer-cont h5{
+        color:#7CB2CE;
+        padding:10px 0 10px 0;
+        font-weight:bold;
+        font-size:13px;
+   }   
+   .footer-cont ul li a{
+        font-size:12px;
+   }
+    .footer-img img{
+     float:left;
+     width:76px;
+     margin:5px 0 0 20%;
+    }
+    .footer-img figure.weixin{
+        margin:-20px 0 0 20%;
+        float:left;
+    }
+    .weibo{
+        padding:20px 0 0 0;
+        margin:0 0 0 20%;
+         float:left;
+    }
+}
+/*在小于320 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 320px) {
+     .carousel-control{
+        font-size:50px;
+     }
+     .modal-dialog{
+        width:80%;
+        margin:15rem auto;
+    }
+    .fvideo{
+        width:100%;
+    }
+    .pic1-title{
+        margin:0;
+        padding:0;
+        top:10%;
+        position:absolute;
+        text-align:right;
+        font-family:'STKaiti';
+        width:50%;
+    }
+    .pic1-title h3{
+        color:#5B6F97;
+        font-size:15px;
+    }
+    .pic1-title h1{
+        color:#5B6F97;
+        font-size:20px;
+        margin:10px 0;
+    }
+    .pic1-title p{
+        color:#5B6F97;
+        font-size:1px;
+    }
+    .pic2-title{
+        margin:0;
+        padding:0;
+        top:10%;
+        left:50%;
+        text-align:left;
+        position:absolute;
+        width:50%;
+        font-family:'STKaiti';
+    }
+    .pic2-title h3{
+        color:#546893;
+        font-size:12px;
+    }
+    .pic2-title h1{
+        color:#18356F;
+        font-size:16px;
+        margin:10px 0;
+    }
+    .pic2-title p{
+        color:#546893;
+        font-size:5px;
+    }
+    .pic3-title{
+        margin:0;
+        padding:0;
+        top:10%;
+        text-align:right;
+        position:absolute;
+        font-family:'STKaiti';
+        width:48%;
+        /*background:red;*/
+    }
+    .pic3-title h3{
+        color:#546893;
+        font-size:14px;
+        margin:10px 0;
+    }
+    .pic3-title h1{
+        color:#18356F;
+        font-size:16px;
+        margin:10px 0;
+    }
+    .pic3-title p{
+        color:#546893;
+        font-size:5px;
+/*      letter-spacing:0px;*/
+    }
+    .footer-img img{
+         float:left;
+         width:76px;
+         margin:5px 0 0 20%;
+    }
+    .footer-img figure.weixin{
+        margin:-20px 0 0 20%;
+        float:left;
+    }
+    .weibo{
+        padding:20px 0 0 0;
+        margin:0 0 0 20%;
+        float:left;
+    }
+    .footer-cont h5{
+        color:#7CB2CE;
+        padding:10px 0 10px 0;
+        font-weight:bold;
+        font-size:10px;
+   }   
+   .footer-cont ul li a{
+        font-size:10px;
+   }
+}

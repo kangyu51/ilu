@@ -1,0 +1,173 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    font-family: "思源黑体","微软雅黑","Regular","Times New Roman",Georgia,Serif;
+}
+body{
+   font-size:0.625%;
+}
+ul{
+    list-style:none;
+}
+a,li{
+    text-decoration:none;
+}
+/*导航条*/
+#myCarousel{
+    margin-top:50px;
+}
+.carousel-indicators li{
+    border:1px solid #8998B3;
+}
+.carousel-indicators .active{
+    background:#7DB2CE;
+}
+.carousel-inner img{
+    margin:0 auto;
+}
+.carousel-control{
+    font-size:100px;
+}
+#navbar-collapse ul {
+    margin-top:0;
+}
+/*图片*/
+.pics{
+    width:100%;
+    margin:80px 0;
+}
+
+.pics .container h5{
+    margin:20px 0 20px 40%;
+}
+
+
+
+
+
+
+
+
+
+/*底部*/
+.row{
+    padding:0;
+    margin:0;
+}
+.a{
+    background:#EEEEEE;
+}
+.footer-cont{
+    text-align:center;
+}
+.footer-cont h5{
+    color:#7CB2CE;
+    padding:10px 0 10px 0;
+    font-weight:bold;
+    font-size:10px;
+}
+.footer-cont ul li{
+    margin:10px 0;
+}
+.footer-cont ul li a{
+    color:#999999;
+    text-decoration:none;
+    cursor:pointer;
+}
+.footer-cont ul li a:hover{
+    color:#7CB2CE;
+}
+.footer-search .input-group{
+     padding:10px 0 30px 0;
+     text-align:center;
+     width:100%;
+     margin:0 auto;
+}
+.input-group div{
+    width:55%;
+}
+.footer-search .input-group button{
+    background:#7CB2CE;
+    color:#fff;
+}
+.footer-img {
+    text-align:center;
+}
+.footer-img img{
+     float:left;
+     width:76px;
+     margin:30px 0 0 0;
+}
+.footer-img figure{
+    margin:-2px 0 0 10%;
+    float:left;
+}
+.footer-img figure h4{
+   font-size:12px;
+   text-align:center;
+}
+.footer-img figure img{
+    width:50px;
+    margin:-5% 0 0 0;
+}
+
+/*当页面大于1200px 时，大屏幕，主要是PC 端*/
+@media (min-width: 1200px) {
+  .input-group div{
+        width:60%;
+    }
+}
+/*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .input-group div{
+        width:75%;
+    }
+}
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .input-group div{
+        width:75%;
+    }
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+    .input-group div{
+        width:100%;
+    }
+    .footer-img figure{
+        margin:-2px 0 0 10%;
+        float:left;
+    }
+    .footer-img img{
+         float:left;
+         width:76px;
+         margin:30px 0 0 20%;
+    }
+    .footer-img figure img{
+        width:50px;
+        margin:-5% 0 0 0;
+    }
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {
+    .footer-cont ul li a{
+        font-size:10px;
+    }
+    .input-group div{
+        width:100%;
+    }
+     .footer-img figure{
+        margin:-2px 0 0 10%;
+        float:left;
+    }
+    .footer-img img{
+         float:left;
+         width:76px;
+         margin:30px 0 0 15%;
+    }
+    .footer-img figure img{
+        width:50px;
+        margin:-5% 0 0 0;
+    }
+}
